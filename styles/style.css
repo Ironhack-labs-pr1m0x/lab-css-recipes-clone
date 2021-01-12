@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap');
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+main {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 1100px;
+}
+
+.section--banner {
+  background-image: url("/images/apple-pie.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20rem 0;
+}
+
+h1 {
+  color: white;
+  font-size: 10rem;
+  text-align: center;
+}
+
+.section--receipe-info {
+  /* text-align: center; */
+}
+
+hr {
+  height: 3px;
+  width: 100%;
+  background-color: lightgrey;
+  margin-bottom: 5rem;
+  border: none;
+}
+
+ul, ol {
+  line-height: 3rem;
+}
+
+.section--ingredients ul {
+  list-style-type: none;
+}
+
+.receipe--description {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 4rem;
+  text-align: center;
+}
+
+img {
+  margin: 3rem 0;
+  width: 500px;
+}
+
+.img--center {
+  align-self: center;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+section {
+  margin-bottom: 4rem;
+}
